@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=FP-conv-test2
 #SBATCH --nodes=1
-#SBATCH --ntasks=1
-#SBATCH --time=3:00:00
-#SBATCH --mem-per-cpu=1000M 
-#SBATCH --cpus-per-task=12  # 1 thread per rank
+#SBATCH --ntasks=16
+#SBATCH --time=12:00:00
+#SBATCH --mem-per-cpu=800M 
+#SBATCH --cpus-per-task=1  # 1 thread per rank
 
 module load class-simulations
 
